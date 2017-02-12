@@ -79,7 +79,9 @@ article {
   background: #ededed;
   padding-bottom: 7vh;
 }
-
+.question-wrapper span {
+  float: right;
+}
 .question-wrapper {
   width: 95%;
   margin: auto;
@@ -87,6 +89,7 @@ article {
   padding: 1rem;
   background: #fff;
   box-shadow: 1px 1px 1px rgba(134, 134, 134, 0.52);
+  height: 150px;*/
 }
 .question-wrapper:hover {
   transform: translate(0, -1.5px);
@@ -152,7 +155,7 @@ label, input[type="radio"], input[type="range"] {
   width: 100vw;
   background: rgba(88, 88, 88, 0.55);
   display: flex;
-  display: none; /* ALERTDELETEME - REMOVE THIS line only WHEN STYLING THE MODAL*/
+  /*display: none; /* ALERTDELETEME - REMOVE THIS line only WHEN STYLING THE MODAL*/*/
   justify-content: center;
   align-items: center;
 }
